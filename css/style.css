@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap&subset=cyrillic');
+
+* {
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap&subset=cyrillic');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	padding-top: 44px;
+    font-family: "Roboto", sans-serif;
+    background: url(../img/batman.jpg);
+    background-size: cover;
+}
+
+.container {
+	max-width: 1200px;
+    margin: auto;
+}
+
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 40px;
+}
+
+.logo {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-right: 47px;
+}
+
+.search-input {
+    flex: 0.8;
+    width: 800px;
+    height: 40px;
+    font-size: 16px;
+    background: rgba(196, 196, 196, 0.5);
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    line-height: 16px;
+    color: #ffffff;
+    padding-left: 18px;
+}
+
+.search-input::placeholder {
+    color: #AEAEAE;
+}
+
+.bookmark {
+    margin-left: 20px;
+    margin-right: 0px;
+}
+
+.avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: -20px;
+}
+
+.hcontent {
+    margin-top: 438px;
+}
+
+.batman-text {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 64px;
+    color: #ffffff;
+    font-family: 'Playfair Display', sans-serif;
+}
+
+.batenglish {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    color: #787878;
+    margin-top: 7px;
+}
+
+.fbutton {
+    border: none;
+    border-radius: 3px;
+    width: 72px;
+    height: 29px;
+    background: #ffffff;
+    font-size: 16px;
+    line-height: 19px;
+    align-self: center;
+    margin-top: 44px;
+}
+
+.infotext {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ffffff;
+    margin-left: 20px;
+}
+
+.playbutton {
+    position: absolute;
+    top: 693.68px;
+    margin-left: 33px;
+}
+
+.trailer {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    margin-left: 15px;
+    position: relative;
+    bottom: 7px;
+    flex-wrap: nowrap;
+}
+
+.tlink {
+    text-decoration: none;
+}
+
+.elipse-text {
+    color: #ffffff;
+    position: absolute;
+    width: 83px;
+    height: 19px;
+    left: 1413px;
+    top: 719px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: right;
+}
+
+.elipse-down {
+    position: absolute;
+    top: -5px;
+    margin-left: 26px;
+    cursor: pointer;
+}
+
+.bat2 {
+    position: absolute;
+    top: 790px;
+    width: 182px;
+    height: 260x;
+}
+
+.watch {
+    position: absolute;
+    top: 1080px;
+    cursor: pointer;
+}
+
+.roles {
+    position: absolute;
+    top: 1150px;
+    display: inline-block;
+}
+
+.rheading {
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.roles p {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.promo {
+    box-shadow: 0px 7px 12px rgba(158, 158, 163, 0.1);
+	background: #FFFFFF no-repeat;
+	border-radius: 3px;
+	padding: 68px 70px;
+	max-width: 1200px;
+    margin-bottom: 56px;
+    width: 1400px;
+    height: 883px;
+    margin-top: 113px;
+}
+
+.promo-text {
+    margin-left: 230px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+
+.promo1 {
+    text-decoration: none;
+    color: #FF8F27;
+}
+
+.promo2 {
+    text-decoration: none;
+}
+
+.promo1,
+.promo2 {
+    margin-right: 40px;
+}
+
+.promo3 {
+    margin-right: 30px;
+    text-decoration: none;
+}
+
+.promo2,
+.promo3 {
+    color: #000000;
+}
+
+.bookmark1 {
+    position: absolute;
+    bottom: 4px;
+    left: 1385px;
+    cursor: pointer;
+    margin-left: 110px;
+}
+
+.about {
+    margin-left: 230px;
+    width: 514px;
+    height: 176px;
+    font-size: 16px;
+    line-height: 140%;
+    margin-top: -400px;
+}
+
+.heading {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 140%;
+    margin-top: 32.91px;
+}
+
+.subscribe {
+    margin-left: 830px;
+    margin-top: 40px;
+    width: 300px;
+}
+
+.minput {
+    width: 219px;
+    height: 38px;
+    background: rgba(241, 241, 241, 0.5);
+    border-radius: 5px;
+    margin-left: 830px;
+    border: none;
+    padding: 15px;
+}
+
+.checkbutton {
+    margin-left: 1044px;
+    position: relative;
+    top: -39.78px;
+    cursor: pointer;
+    border-radius: 0px 5px 5px 0px;
+    height: 40px;
+}
+
+.adverstiment {
+    margin-left: 830px;
+}
+
